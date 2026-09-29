@@ -29,6 +29,8 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line
 .pair{display:grid;gap:12px}
 @media (min-width:600px){.pair{grid-template-columns:1fr 1fr}}
 .pick{position:relative;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 14px 12px}
+.ph{aspect-ratio:1;border-radius:10px;overflow:hidden;background:var(--bg);margin-bottom:10px}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
 .stamp{align-self:flex-start;font-family:var(--display);font-size:15px;color:#fff;background:var(--red);padding:3px 10px;border-radius:99px}
 .pick.value .stamp{background:var(--val)}
 .pick h4{margin:8px 0 4px;font-size:18px}
@@ -53,6 +55,7 @@ footer a{color:inherit}
   <section class="cat" id="보조배터리">
       <h3>보조배터리 <small>충전·전원</small></h3>
       <div class="pair"><div class="pick quality">
+      <div class="ph"><img src="img/PB721.jpg" alt="유그린 Nexode 20000 130W" loading="lazy"></div>
       <span class="stamp">품질픽</span>
       <h4>유그린 Nexode 20000 130W</h4>
       <p class="spec">표기 용량 20,000mAh<br>정격 에너지 72Wh<br>최대 출력 130W<br>실측 방전 에너지 64.7Wh<br>무게 480g<br>KC 안전확인 XU103175-24008</p>
